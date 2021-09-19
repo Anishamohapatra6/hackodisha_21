@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.col-md-9 {
+    padding: 100px;
+}
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    background: url(../public/admin.jpeg);
+    background-size: cover;
+}
+
+.bg-teal {
+    background-color: #BD4B4B;
+    margin: 10;
+    justify-content: center;
+}
+
+.col h1 {
+    padding-left: 50;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-teal {
+    color: #BD4B4B;
+}
+
+.myImage {
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px black;
+}
+
+.btn-teal {
+    background-color: #BD4B4B !important;
+}
+
+.modal-body input[type=text],
+input[type=number],
+input[type=file],
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    margin-top: 25px;
+    margin-left: 350px;
+    margin-bottom: 25px;
+    border: none;
+}
+
+.container1 .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container1 .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #CE1212, #810000);
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #CE1212;
+    margin-bottom: 25px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+
+/* Add padding to container elements */
+
+.container1 {
+    padding: 16px;
+}
+
+.btn {
+    background-color: #CE1212;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Darker background on mouse-over */
+
+.btn:hover {
+    background-color: #810000;
+}
+
+@media only screen and (max-width:620px) {
+    .container1 {
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .container,
+    .col-md-4,
+    .btn .btn-primary .btn-block {
+        width: 100%;
+        padding: 100px 20px;
+        margin-left: 19px;
+    }
+    .container .row.animated.slideInRight {
+        background: rgb(214, 209, 209);
+        padding: 29px;
+        align-items: center;
+        display: inline-block;
+        margin-right: 5px;
+        justify-content: left;
+        width: 100%;
+    }
+    .container1 .form-group {
+        margin-bottom: 15px;
+        width: 100%;
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+}

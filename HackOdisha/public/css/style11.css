@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'); */
+* {
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 120;
+    font-family: 'Poppins';
+    color: firebrick;
+    height: 450px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    background-color: #283d4e;
+}
+li{
+    list-style: none;
+    padding: 4px;
+    color: white;
+    font-size: 20px;
+}
+.nav{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 25px;
+    color: white;
+}
+#flag{
+    height: 25px;
+    margin-left: 26px;
+  }
+.india{
+    display: flex;
+    flex-direction: row;
+    padding-top:15px ;
+}
+.below
+{
+  background-color: black;
+  color: white;
+  padding-bottom: 16px;
+}
+a:hover
+{
+  opacity: 70%;
+  /* background-color: rgb(50, 203, 241); */
+  color: rgb(240, 240, 106);
+  text-shadow: 5px 5px 10px white ;
+  border: white;
+}
+h1,.part1 h2{
+    text-decoration: underline;
+}
+p{
+    font-weight: 550;
+    font-size: 18px;
+}

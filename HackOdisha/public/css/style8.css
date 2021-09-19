@@ -1,0 +1,84 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  background-image: url(../donate.jpg);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(168, 189, 189);
+  opacity: 50%; */
+}
+
+.img1
+{
+  text-align: center;
+  margin-left: 00px;
+  margin-top: 00px;
+  padding-top: 200px;
+  padding-left: 50px;
+  font-size: 22px;
+}
+
+.part2
+{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 24px;
+  font-weight: 520;
+  padding-bottom: 100px;
+  margin-right: 50px;
+  
+}
+
+.support{
+  margin-right: 50px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  background-color: #283d4e;
+}
+li{
+  list-style: none;
+  padding: 4px;
+  color: white;
+  font-size: 20px;
+}
+.nav{
+  text-decoration: none;
+  list-style: none;
+  padding-left: 25px;
+  color: white;
+}
+#flag{
+  height: 25px;
+  margin-left: 26px;
+}
+.india{
+  display: flex;
+  flex-direction: row;
+  padding-top:15px ;
+}
+.below
+{
+background-color: black;
+color: white;
+padding-bottom: 16px;
+}
+a:hover
+{
+opacity: 70%;
+/* background-color: rgb(50, 203, 241); */
+color: rgb(240, 240, 106);
+text-shadow: 5px 5px 10px white ;
+border: white;
+}
+p{
+  font-weight: 600;
+}

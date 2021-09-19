@@ -1,0 +1,110 @@
+body{
+  background-image: url(../background.jpg);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.part1
+{
+  text-align: center;
+
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.box
+{
+  border-radius: 20px;
+  margin-top: 100px;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+  border-color: blue;
+  padding-left: 50px;
+  padding-right: 100px;
+  margin-left: 20px;
+  margin-right: 200px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  border-color: solid black;
+  border-width:50px;
+  background-image: url(../pink.jpg);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 410px;
+  margin-left: 320px;
+}
+
+
+.input1
+{
+  /* align-content: center;
+  align-items: center; */
+  border-radius: 10px;
+  height: 30px;
+  width: 300px;
+}
+
+.input2
+{
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+}
+
+.box1
+{
+  padding-left: 100px;
+}
+
+.input3
+{
+
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 100px;
+  width: 350px;
+
+}
+
+.part1t
+{
+  text-align: center;
+}
+
+/* .button1
+{
+  border-radius: 5px;
+  margin-left: 100px;
+} */
+
+.final
+{
+  text-align: center;
+}
+.button1
+{ 
+  background-color: rgb(187, 14, 14);
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  height: 45px;
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  border: 3px solid #fce2e3;
+  color: white;
+}
+
+
+.button1:hover
+{
+  color: black;
+}

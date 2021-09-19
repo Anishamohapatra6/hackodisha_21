@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<title> Login and Registration Form in HTML & CSS | CodingLab </title>-->
+    <link rel="stylesheet" href="../css/style3.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <input type="checkbox" id="flip">
+        <div class="cover">
+            <div class="front">
+                <img src="data:image/png;base64,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" alt="Image not available">
+                <div class="text">
+                    <span class="text-1">Find blood donors</span>
+                    <span class="text-2">Connect with organisations</span>
+                </div>
+            </div>
+            <div class="back">
+                <!--<img class="backImg" src="images/backImg.jpg" alt="">-->
+                <div class="text">
+                    <span class="text-1">Complete miles of journey <br> with one step</span>
+                    <span class="text-2">Let's get started</span>
+                </div>
+            </div>
+        </div>
+        <div class="forms">
+            <div class="form-content">
+                <div class="login-form">
+                    <div class="title">Request Blood</div>
+                    <form action="/blood" method="post">
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <input type="text" name="city_blood" placeholder="City" required>
+                            </div>
+                            <div class="input-box">
+                                <label>Blood Group </label>
+                                <select name="bloodgroup">
+                                    <option>A+</option>
+                                    <option>O+</option>
+                                    <option>B+</option>
+                                    <option>AB+</option>
+                                    <option>A-</option>
+                                    <option>O-</option>
+                                    <option>B-</option>
+                                    <option>AB-</option>
+
+                                </select>
+                            </div>
+                            <div class="button input-box">
+                                <button id="btn" type="submit">Request</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
