@@ -34,6 +34,7 @@ The Application runs on localhost:3000
 Navigate to the main project folder in a seperate terminal. Then install all npm packages
 
 npm install 
+
 If you don't have nodemon globally installed on your system, install it so the server can autorefresh
 
 npm install -g nodemon
