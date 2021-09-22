@@ -19,11 +19,13 @@ The web app enables hospitals/NGOs to register and post their status of availabi
 
 ## Prerequisites :man_technologist:
 ### Install Node JS
+
 Refer to https://nodejs.org/en/ to install nodejs
 
 ### Clone the project in localhost
 
 git clone https://github.com/siddharth-kp/hackodisha_21.git
+
 Install all the npm packages. Go into the web folder and type the following command to install all npm packages
 
 npm install
@@ -31,6 +33,7 @@ npm install
 The Application runs on localhost:3000
 
 ### To spin up the backend server
+
 Navigate to the main project folder in a seperate terminal. Then install all npm packages
 
 npm install 
@@ -40,6 +43,7 @@ If you don't have nodemon globally installed on your system, install it so the s
 npm install -g nodemon
 
 ### Connecting to the Database
+
 Install the MongoDB Node.js Driver with the following command:
 
 npm install mongodb
