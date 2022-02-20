@@ -54,6 +54,10 @@ The server runs on localhost:27017
 We want to make the blood transactions transparent and secure using blockchain. We want to use hospital APIs so that hospitals can directly connect with our database and make entries easily and update their status.
 
 
-
+## Contributors
+Anisha Mohapatra
+Siddharth Kumar Panda
+Geethasree Koncha
+Sanskar Soven
 
 
